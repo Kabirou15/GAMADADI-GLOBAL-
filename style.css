@@ -125,7 +125,7 @@ function checkout() {
 
   Pi.createPayment({
     amount: total,
-    memo: "GAMADADI Order",
+    memo: "GAMADADI GLOBAL Order",
     metadata: cart
   }, {
     onReadyForServerApproval: (paymentId) => {
